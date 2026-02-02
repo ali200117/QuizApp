@@ -21,6 +21,15 @@ class GalleryStore {
     }
 
 
+    //DELETE BUTTON
+    fun remove(item : GalleryItem) {
+        items.remove(item)
+    }
+
+
+    //ADD Button
+
+
 
 
 

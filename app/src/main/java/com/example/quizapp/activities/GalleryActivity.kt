@@ -16,10 +16,10 @@ class GalleryActivity : ComponentActivity(){
 
 
         val app = application as QuizApplication
-
+        val galleryStore = app.galleryStore
 
         setContent {
-            GalleryScreen(app.galleryStore)
+            GalleryScreen(store = galleryStore)
         }
 
     }

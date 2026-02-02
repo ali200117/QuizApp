@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".app.QuizApplication"
+
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -28,12 +30,6 @@
         </activity>
 
         <activity android:name=".activities.QuizActivity" android:exported="false">
-
-        </activity>
-
-
-        <activity android:name=".app.QuizApplication">
-
 
         </activity>
 
