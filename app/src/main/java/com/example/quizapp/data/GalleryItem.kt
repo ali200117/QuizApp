@@ -1,9 +1,14 @@
 package com.example.quizapp.data
 
-    data class GalleryItem(
+import android.net.Uri
+
+data class GalleryItem(
 
     val name: String,
 
-    val imageResId: Int
+    //Hardkodet bilder
+    val imageResId: Int ? = null,
 
+    //bilder fra cameraroll
+    val imageUri: Uri? = null
     )
